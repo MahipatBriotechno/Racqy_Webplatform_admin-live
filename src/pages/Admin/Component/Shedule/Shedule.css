@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+.description-time-picker {
+  font-weight: bold;
+}
+
+table {
+
+  width: 145vh;
+  height: 100%;
+
+  border-collapse: collapse;
+  padding: 0;
+  border: 0;
+
+}
+tr{
+ height: 85px;
+}
+
+tbody {
+  height: 100vh;
+}
+
+table table {
+  margin: 0;
+}
+
+th,
+td {
+
+  /* border: 1px solid black; */
+  text-align: center;
+  margin-top: -50px;
+}
+td.active::before{
+  background-color: red;
+  border-radius: 50%;
+}
+td.active {
+  border-bottom: 5px solid #29BBC3;
+  border-top: 1px solid #E1E1E7;
+  border-left: 1px solid #E1E1E7;
+  border-right: 1px solid #E1E1E7;
+  background: #FAFAFC;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+}
+
+.date-div {
+  display: flex;
+  column-gap: 20px;
+}
+
+.icon-back-arrow {
+  border: 1px solid #80808036 !important;
+  padding: 7px !important;
+  border-radius: 11px 1px 1px 10px !important;
+}
+
+.icon-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.input-text .MuiOutlinedInput-root {
+  border-radius: 0px !important;
+}
+
+.icon-forwed-arrow {
+  border: 1px solid #80808036 !important;
+  padding: 7px !important;
+  border-radius: 1px 11px 11px 1px !important;
+}
+
+.input-text .MuiOutlinedInput-root input .MuiOutlinedInput-notchedOutline {
+  border-color: #80808036 !important;
+}
+
+.header-text {
+  font-size: 26px;
+  letter-spacing: 1.5px;
+  margin-left: 1rem;
+}
